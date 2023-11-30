@@ -2,6 +2,10 @@ body{
     
 }
 
+h1{ /*type selector centers all h1 elements*/
+    text-align: center;
+}
+
 a[title]{ /* title in brackets tells css to apply this style to 
         anchor tags with the title attribute */
     color: #FF9800;
@@ -24,11 +28,11 @@ a[href$=".gov"]{
 }
 
 .fireship{
-    color: red;
+    color: purple;
 }
-
-.fireship:hover{
-    background-color: purple;
+ /*this selector changes the fireship class to have a blue background on hover which also makes the text red on dark mode*/
+.fireship > a:hover{
+    background-color: blue;
 }
 
 #important{ /*sets any line with the "important" id to uppercase letters, 
