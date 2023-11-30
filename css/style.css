@@ -23,8 +23,8 @@ a[href$=".gov"]{
 }
 
 .nyt{ /*.nyt selects the "nyt" class*/
-    background-color: aqua;
-    color: white;
+    background-color: #F8FCDA;
+    color: #A5ABAF;
 }
 
 .fireship{
@@ -42,4 +42,11 @@ a[href$=".gov"]{
 
 *{ /*universal selector sets background color of everything to black*/
     background-color: black;    
+}
+
+article > p{ /*child combinator sets all paragraphs within 
+        an article to have white text with an aqua background and aligns them to the left while leaving the h2 as is*/
+    text-align: left;
+    background-color: aqua;
+    color: white;
 }
