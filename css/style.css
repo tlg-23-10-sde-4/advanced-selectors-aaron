@@ -17,3 +17,12 @@ a:hover{
 a[href$=".gov"]{
     color: green;
 }
+
+.nyt{ /*.nyt selects the "nyt" class*/
+    background-color: aqua;
+    color: white;
+}
+
+#important{ /*sets any line with the "important" id to uppercase letters*/
+    text-transform: uppercase;
+}
