@@ -1,5 +1,5 @@
 body{
-    
+    background-color: black;
 }
 
 h1{ /*type selector centers all h1 elements*/
@@ -24,7 +24,7 @@ a[href$=".gov"]{
 
 .nyt{ /*.nyt selects the "nyt" class*/
     background-color: #F8FCDA;
-    color: #A5ABAF;
+    color: #B1F8F2;
 }
 
 .fireship{
@@ -40,8 +40,8 @@ a[href$=".gov"]{
     text-transform: uppercase;
 }
 
-*{ /*universal selector sets background color of everything to black*/
-    background-color: black;    
+*{ /*universal selector sets padding to 1%*/
+    padding: 1%;    
 }
 
 article > p{ /*child combinator sets all paragraphs within 
@@ -49,4 +49,9 @@ article > p{ /*child combinator sets all paragraphs within
     text-align: left;
     background-color: aqua;
     color: white;
+}
+
+ul li{
+    background-color: #B1F8F2;
+    color: #FFFC99;
 }
