@@ -6,6 +6,10 @@ h1{ /*type selector centers all h1 elements*/
     text-align: center;
 }
 
+hr{
+    padding: 0%;
+}
+
 a[title]{ /* title in brackets tells css to apply this style to 
         anchor tags with the title attribute */
     color: #FF9800;
@@ -57,6 +61,7 @@ ul li{
 }
 
 @namespace cssNameSpace url("https://developer.mozilla.org/en-US/docs/Web/CSS");
-a{ /*only anchors with the cssNameSpace url have color changed to khaki*/
+a{ /*only anchors with the cssNameSpace url have color changed to khaki however 
+        they still inherit the :hovor color from the above achor styling*/
     color: khaki;
 }
