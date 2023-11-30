@@ -14,12 +14,11 @@ hr{
     padding: 0%;
 }
 
-a[title]{ /* title in brackets tells css to apply this style to 
-        anchor tags with the title attribute */
+a[title ="amazon_shop"]{ /* title in brackets tells css to apply this style to 
+        anchor tags with the amazon_shop title */
     color: #FF9800;
 }
 
-/* use all of the selectors */
 
 a:hover{
     color: red;
@@ -39,14 +38,15 @@ a[href$=".gov"]{
     color: purple;
 }
 
- /*this selector changes the fireship class to have a blue background on hover which also makes the text red on dark mode*/
-.fireship > a:hover{
-    background-color: blue;
-}
-
-#important{ /*sets any line with the "important" id to uppercase letters, 
+.important{ /*id selector selects "important" id to uppercase letters, 
         this should probably be a class but for this assignment it's an id*/
     text-transform: uppercase;
+}
+
+ul{
+    text-align: left;
+}   & .important{
+    text-decoration: underline;
 }
 
 article > p{ /*child combinator sets all paragraphs within 
@@ -56,7 +56,7 @@ article > p{ /*child combinator sets all paragraphs within
     color: white;
 }
 
-ul li{
+ul li{ /*descendent selector makes li in a ul have a background and text color*/
     background-color: #B1F8F2;
     color: #FFFC99;
 }
