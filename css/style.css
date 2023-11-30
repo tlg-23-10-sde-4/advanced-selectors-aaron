@@ -1,0 +1,19 @@
+body{
+    
+}
+
+a[title]{ /* title in brackets tells css to apply this style to 
+        anchor tags with the title attribute */
+    color: #FF9800;
+}
+
+/* use all of the selectors */
+
+a:hover{
+    color: red;
+}
+
+/*if url ends in .gov make the link green*/
+a[href$=".gov"]{
+    color: green;
+}
