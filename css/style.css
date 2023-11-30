@@ -23,6 +23,16 @@ a[href$=".gov"]{
     color: white;
 }
 
-#important{ /*sets any line with the "important" id to uppercase letters*/
+.fireship{
+    color: red;
+}
+
+.fireship:hover{
+    background-color: purple;
+}
+
+#important{ /*sets any line with the "important" id to uppercase letters, 
+        this should probably be a class but for this assignment it's an id*/
     text-transform: uppercase;
 }
+
