@@ -40,3 +40,6 @@ a[href$=".gov"]{
     text-transform: uppercase;
 }
 
+*{ /*universal selector sets background color of everything to black*/
+    background-color: black;    
+}
