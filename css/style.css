@@ -1,3 +1,7 @@
+*{ /*universal selector sets padding to 1%*/
+    padding: 1%;    
+}
+
 body{
     background-color: black;
 }
@@ -42,10 +46,6 @@ a[href$=".gov"]{
 #important{ /*sets any line with the "important" id to uppercase letters, 
         this should probably be a class but for this assignment it's an id*/
     text-transform: uppercase;
-}
-
-*{ /*universal selector sets padding to 1%*/
-    padding: 1%;    
 }
 
 article > p{ /*child combinator sets all paragraphs within 
