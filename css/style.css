@@ -55,3 +55,8 @@ ul li{
     background-color: #B1F8F2;
     color: #FFFC99;
 }
+
+@namespace cssNameSpace url("https://developer.mozilla.org/en-US/docs/Web/CSS");
+a{ /*only anchors with the cssNameSpace url have color changed to khaki*/
+    color: khaki;
+}
