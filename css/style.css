@@ -38,6 +38,7 @@ a[href$=".gov"]{
 .fireship{
     color: purple;
 }
+
  /*this selector changes the fireship class to have a blue background on hover which also makes the text red on dark mode*/
 .fireship > a:hover{
     background-color: blue;
@@ -62,6 +63,6 @@ ul li{
 
 @namespace cssNameSpace url("https://developer.mozilla.org/en-US/docs/Web/CSS");
 a{ /*only anchors with the cssNameSpace url have color changed to khaki however 
-        they still inherit the :hovor color from the above achor styling*/
+        they still inherit the :hover color from the above anchor styling*/
     color: khaki;
 }
