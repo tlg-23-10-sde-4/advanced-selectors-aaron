@@ -6,6 +6,13 @@ body{
     background-color: black;
 }
 
+nav{
+    position: sticky;
+    top: -1px;
+    background-color: black;
+    z-index: auto;
+}
+
 h1{ /*type selector centers all h1 elements*/
     text-align: center;
 }
@@ -59,6 +66,7 @@ ul{
     text-align: left;
 }   & .important{
     text-decoration: underline;
+    z-index: 4;
 }
 
 @namespace cssNameSpace url("https://developer.mozilla.org/en-US/docs/Web/CSS");
